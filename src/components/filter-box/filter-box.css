@@ -1,0 +1,32 @@
+.filter-box {
+  padding: 1rem;
+  background: lightgray;
+  margin-bottom: 1rem;
+  display: flex;
+  max-height:52px;
+}
+.filter-label {
+  margin-right: 1rem;
+}
+.select-control {
+  background: none;
+  border: 1px solid navy;
+  margin-right: 2rem;
+}
+.select-control:hover{
+	background-color:rgb(240, 178, 7)
+ }
+.filter-input{
+	background-color:lightgray;
+	width: 250px;
+	padding: 3px 0px 3px 5px;
+	border: 1px solid navy
+}
+.filter-input:hover{
+background-color:rgb(240, 178, 7)
+}
+.container {
+	max-width: 1200px;
+	margin: auto;
+
+}
