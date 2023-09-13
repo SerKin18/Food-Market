@@ -1,0 +1,37 @@
+.top-cart {
+	padding: .5rem 0;
+	width: 100%;
+	
+	top: 0;
+	left: 0;
+	background: lightgray;
+
+}
+.container{
+max-width: 1200px;
+margin:0 auto;
+}
+.top-cart-info-container {
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn-check {
+	padding: 5px 12px;
+	background: darkorange;
+	color: white;
+	text-transform: uppercase;
+	border: 0;
+	border-radius: 4px;
+
+}
+.btn-check:focus {
+	outline:none;
+	background: rgb(184, 104, 8);
+}
+.btn-check:hover {
+	transform: scale(1.01);
+	
+}
+

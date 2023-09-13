@@ -1,0 +1,39 @@
+
+ 
+ .order-box__top {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+ }
+ .order-box__price{
+position: absolute;
+margin: 40px 100px 0px 0px;
+ }
+
+ .order-box__item {
+	align-items:start;
+text-align: start;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row-reverse;
+	border: 1px dotted #ff3adc;
+	padding: 8px;
+ }
+ .order-box__title{
+	align-items:center;
+	text-align: center;
+	font-size: 18px;
+ }
+ .order-box__price h4{
+text-align: center;
+padding: 10px 0px 0px 10px;
+font-size: 16px;
+ }
+
+ .order-box__img img {
+	height: 100%;
+	width: 40%;
+
+	
+ }
