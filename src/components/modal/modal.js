@@ -1,3 +1,4 @@
+import React from 'react'
 import { Component } from 'react'
 import './modal.css'
 import OpenOrder from '../orderList/orderList'

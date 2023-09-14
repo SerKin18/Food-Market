@@ -1,3 +1,4 @@
+import React from 'react'
 import '../top-card/top-card.css'
 
 export default function TopCard({ openModal, summ, counter }) {

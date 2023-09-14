@@ -1,3 +1,4 @@
+import React from 'react'
 import { Component } from 'react'
 import './filter-box.css'
 export default class FilterBox extends Component {

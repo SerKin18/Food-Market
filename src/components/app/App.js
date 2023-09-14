@@ -1,3 +1,4 @@
+import React from 'react'
 import { Component } from 'react'
 import Footer from '../footer/footer'
 import TopCard from '../top-card/top-card'
@@ -91,9 +92,6 @@ export default class App extends Component {
 	render() {
 		const { onUpSearchFilter, serchItem, onUpPricefilter, filterCategory, filterPrice, state, openModal } = this
 		const newData = filterCategory((filterPrice((serchItem(data, state.searchItem)), state.priceFilt)), state.filt)
-		console.log(this.state);
-
-
 		return (
 			<div className="app-container pt-40">
 				<Modal isOpened={this.state.modal} orderList={this.state.order} openModal={openModal} />

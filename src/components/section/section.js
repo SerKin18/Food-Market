@@ -1,3 +1,4 @@
+import React from 'react'
 import './section.css'
 import ProductBox from '../product-box/product-box.js'
 

@@ -1,3 +1,4 @@
+import React from 'react'
 import { Component } from 'react'
 import './product-box.css'
 
@@ -56,9 +57,8 @@ class ProductBox extends Component {
 
 	render() {
 		let style = { opacity: 0.2 }
-
 		const { data } = this.props;
-		return data.map((item) => {
+		return data.map((item,i) => {
 			return (
 				<div className="product-box__item" data-id={item.food} data-price="25" key={item.id}>
 					<div className='product-box__top'><h3 className="product-box__title">{item.name}</h3>
@@ -67,10 +67,9 @@ class ProductBox extends Component {
 						</div>
 					</div>
 					<div className="product-box__img">
-						<img className="img-fluid" src={item.img} alt='' />
+						<img className="img-fluid" src={item.img} alt={'фото№'+ (i+1)} />
 					</div>
 					<ProduxBoxMeta price={item.price} id={item.id} getValues={this.props.getValues} addToOrder={this.props.addToOrder}busket={this.props.busket} />
-
 				</div>
 			)
 		})
