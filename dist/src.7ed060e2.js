@@ -29366,22 +29366,29 @@ class ProductBox extends _react.Component {
 }
 var _default = ProductBox;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","./product-box.css":"../src/components/product-box/product-box.css"}],"../src/data/products.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","./product-box.css":"../src/components/product-box/product-box.css"}],"../src/i/im1.jpg":[function(require,module,exports) {
+module.exports = "/im1.e99fa6d6.jpg";
+},{}],"../src/i/im2.jpg":[function(require,module,exports) {
+module.exports = "/im2.be64b20f.jpg";
+},{}],"../src/data/products.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.data = void 0;
+var _im = _interopRequireDefault(require("../i/im1.jpg"));
+var _im2 = _interopRequireDefault(require("../i/im2.jpg"));
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const data = [{
   name: 'Овсяная каша с фруктами',
-  img: 'public/i/im1.jpg',
+  img: _im.default,
   price: 25,
   food: 'breakfast',
   id: 1
 }, {
   name: 'Яичница глазунья с овощами на сковородке',
-  img: 'public/i/im2.jpg',
+  img: _im2.default,
   price: 25,
   food: 'breakfast',
   id: 2
@@ -29447,7 +29454,7 @@ const data = [{
   id: 12
 }];
 exports.data = data;
-},{}],"../src/components/app/App.js":[function(require,module,exports) {
+},{"../i/im1.jpg":"../src/i/im1.jpg","../i/im2.jpg":"../src/i/im2.jpg"}],"../src/components/app/App.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29634,7 +29641,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54609" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58057" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

@@ -1,7 +1,8 @@
-
- export const data = [
-	{ name: 'Овсяная каша с фруктами', img: 'public/i/im1.jpg', price: 25, food: 'breakfast', id: 1 },
-	{ name: 'Яичница глазунья с овощами на сковородке', img: 'public/i/im2.jpg', price: 25, food: 'breakfast', id: 2 },
+import img1 from '../i/im1.jpg'
+import img2 from '../i/im2.jpg'
+export const data = [
+	{ name: 'Овсяная каша с фруктами', img: img1, price: 25, food: 'breakfast', id: 1 },
+	{ name: 'Яичница глазунья с овощами на сковородке', img: img2, price: 25, food: 'breakfast', id: 2 },
 	{ name: 'Сет азербайджанский завтрак', img: 'public/i/im3.jpg', price: 30, food: 'breakfast', id: 3 },
 	{ name: 'Яичница с помидорами по-бакински', img: 'public/i/im4.jpg', price: 45, food: 'breakfast', id: 4 },
 	{ name: 'Сырники со сметаной', img: 'public/i/im5.jpg', price: 45, food: 'breakfast', id: 5 },
