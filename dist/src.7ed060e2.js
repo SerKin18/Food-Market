@@ -29370,6 +29370,26 @@ exports.default = _default;
 module.exports = "/im1.e99fa6d6.jpg";
 },{}],"../src/i/im2.jpg":[function(require,module,exports) {
 module.exports = "/im2.be64b20f.jpg";
+},{}],"../src/i/im3.jpg":[function(require,module,exports) {
+module.exports = "/im3.ed5ac45f.jpg";
+},{}],"../src/i/im4.jpg":[function(require,module,exports) {
+module.exports = "/im4.9c99e05f.jpg";
+},{}],"../src/i/im5.jpg":[function(require,module,exports) {
+module.exports = "/im5.5be5c71b.jpg";
+},{}],"../src/i/im6.jpg":[function(require,module,exports) {
+module.exports = "/im6.66b57362.jpg";
+},{}],"../src/i/im7.jpg":[function(require,module,exports) {
+module.exports = "/im7.3aecd2f1.jpg";
+},{}],"../src/i/im8.jpg":[function(require,module,exports) {
+module.exports = "/im8.827c2b48.jpg";
+},{}],"../src/i/im9.jpg":[function(require,module,exports) {
+module.exports = "/im9.887858e3.jpg";
+},{}],"../src/i/im10.jpg":[function(require,module,exports) {
+module.exports = "/im10.10fb05f0.jpg";
+},{}],"../src/i/im11.jpg":[function(require,module,exports) {
+module.exports = "/im11.8f85bb23.jpg";
+},{}],"../src/i/im12.jpg":[function(require,module,exports) {
+module.exports = "/im12.d9a2a9e6.jpg";
 },{}],"../src/data/products.js":[function(require,module,exports) {
 "use strict";
 
@@ -29379,6 +29399,16 @@ Object.defineProperty(exports, "__esModule", {
 exports.data = void 0;
 var _im = _interopRequireDefault(require("../i/im1.jpg"));
 var _im2 = _interopRequireDefault(require("../i/im2.jpg"));
+var _im3 = _interopRequireDefault(require("../i/im3.jpg"));
+var _im4 = _interopRequireDefault(require("../i/im4.jpg"));
+var _im5 = _interopRequireDefault(require("../i/im5.jpg"));
+var _im6 = _interopRequireDefault(require("../i/im6.jpg"));
+var _im7 = _interopRequireDefault(require("../i/im7.jpg"));
+var _im8 = _interopRequireDefault(require("../i/im8.jpg"));
+var _im9 = _interopRequireDefault(require("../i/im9.jpg"));
+var _im10 = _interopRequireDefault(require("../i/im10.jpg"));
+var _im11 = _interopRequireDefault(require("../i/im11.jpg"));
+var _im12 = _interopRequireDefault(require("../i/im12.jpg"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const data = [{
   name: 'Овсяная каша с фруктами',
@@ -29394,67 +29424,67 @@ const data = [{
   id: 2
 }, {
   name: 'Сет азербайджанский завтрак',
-  img: 'public/i/im3.jpg',
+  img: _im3.default,
   price: 30,
   food: 'breakfast',
   id: 3
 }, {
   name: 'Яичница с помидорами по-бакински',
-  img: 'public/i/im4.jpg',
+  img: _im4.default,
   price: 45,
   food: 'breakfast',
   id: 4
 }, {
   name: 'Сырники со сметаной',
-  img: 'public/i/im5.jpg',
+  img: _im5.default,
   price: 45,
   food: 'breakfast',
   id: 5
 }, {
   name: 'Шпинатный крем-суп',
-  img: 'public/i/im6.jpg',
+  img: _im6.default,
   price: 50,
   food: 'first-course',
   id: 6
 }, {
   name: 'Суп Пити',
-  img: 'public/i/im7.jpg',
+  img: _im7.default,
   price: 85,
   food: 'first-course',
   id: 7
 }, {
   name: 'Борщ украинский',
-  img: 'public/i/im8.jpg',
+  img: _im8.default,
   price: 95,
   food: 'first-course',
   id: 8
 }, {
   name: 'Суп Кюфта Бозбаш',
-  img: 'public/i/im9.jpg',
+  img: _im9.default,
   price: 100,
   food: 'first-course',
   id: 9
 }, {
   name: 'Картофель фри',
-  img: 'public/i/im10.jpg',
+  img: _im10.default,
   price: 125,
   food: 'garnish',
   id: 10
 }, {
   name: 'Картофель по-домашнему',
-  img: 'public/i/im11.jpg',
+  img: _im11.default,
   price: 135,
   food: 'garnish',
   id: 11
 }, {
   name: 'Рис с овощами',
-  img: 'public/i/im12.jpg',
+  img: _im12.default,
   price: 150,
   food: 'garnish',
   id: 12
 }];
 exports.data = data;
-},{"../i/im1.jpg":"../src/i/im1.jpg","../i/im2.jpg":"../src/i/im2.jpg"}],"../src/components/app/App.js":[function(require,module,exports) {
+},{"../i/im1.jpg":"../src/i/im1.jpg","../i/im2.jpg":"../src/i/im2.jpg","../i/im3.jpg":"../src/i/im3.jpg","../i/im4.jpg":"../src/i/im4.jpg","../i/im5.jpg":"../src/i/im5.jpg","../i/im6.jpg":"../src/i/im6.jpg","../i/im7.jpg":"../src/i/im7.jpg","../i/im8.jpg":"../src/i/im8.jpg","../i/im9.jpg":"../src/i/im9.jpg","../i/im10.jpg":"../src/i/im10.jpg","../i/im11.jpg":"../src/i/im11.jpg","../i/im12.jpg":"../src/i/im12.jpg"}],"../src/components/app/App.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29641,7 +29671,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58057" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56749" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
